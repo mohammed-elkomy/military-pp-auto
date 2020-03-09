@@ -1,7 +1,7 @@
 # Egyption Army PowerPoint Automation
 
 ## Motivation
-Due to excessive usage of MS-Office in my military service, I came up with a simple tool for automting about 90% of the tasks related to formating and printing. (Military Style presentations)
+Due to excessive usage of MS-Office in my military service, I came up with a simple tool for automting about 90% of the tasks related to formating and printing. (Military-Style presentations, mostly in Arabic)
 
 ## Structure
 Can be broken into 4 groups

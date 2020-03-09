@@ -1,7 +1,7 @@
 # Egyption Army PowerPoint Automation
 
 ## Motivation
-Due to excessive usage of MS-Office in my military service, I came up with a simple tool for automting about 90% of the tasks related to formating and removing inner filling for printing.
+Due to excessive usage of MS-Office in my military service, I came up with a simple tool for automting about 90% of the tasks related to formating and printing. (Military Style presentations)
 
 ## Structure
 Can be broken into 4 groups
@@ -54,11 +54,13 @@ Numbers in brackets are related to the groups
 What really makes me love this tool isn't only time-saving but the strong algorithmic and mathematical background needed to build those features
 1. Optimal line spacing 
 - Looks for the optimal line spacing for textboxes in a slide (they are all the same for visual symmetry) by defining a target padding percentage in a slide and try to minimize an euclidean distance function using ternary search algorithm (which makes it somehow real-time) 
-- I also modelled the font sizes and number of lines in simple 3d tensor represented in heights.komy which makes searching for fonts and number of lines so efficient and apply only one UI call (not trial and error in the presentation view) [this is because MS-office wraps text so we can only find number of lines in reverse fashion (pre-processing approach)]
-2. Finding textboxes split onto one line
+- I also modelled the font sizes and number of lines in simple 3D tensor represented in heights.komy which makes searching for fonts and number of lines so efficient and apply only one UI call (not trial and error in the presentation view) [this is because MS-office wraps text so we can only find number of lines in reverse fashion (pre-processing approach)]
+2. Finding horizontal groups of textboxes in one line
 - I used some form of Jaccard index on the y-axis to find intersections (projected onto the y-axis)
 - To handle rotations some trigonometry must be involved
-
+<p align="center">
+  <img src="https://github.com/mohammed-elkomy/military-pp-auto/raw/master/gifs/horizontal.png"  />
+</p>
 3. Handling nested groups
 - I used recursion in the form of flood-fill through sub-groups
 

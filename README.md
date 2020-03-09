@@ -40,13 +40,13 @@ Numbers in brackets are related to the groups
 - Detecting parenthesis and coloring text within 
 - Optimal Alignment and line spacing (most advanced part and saving a lot of time)
 <p align="center">
-  <img src="xhttps://raw.githubusercontent.com/mohammed-elkomy/military-pp-auto/master/gifs/1w.gif"  />
+  <img src="https://raw.githubusercontent.com/mohammed-elkomy/military-pp-auto/master/gifs/1w.gif"  />
 </p>
 2. Presentation overall operations
 - Black and White colorization for printers (since powerpoint black & white printing may miss some gradients and shadows causing high-ink consumption)
 - Removing inner colors for color-printers (inner colors and shadows cause high-ink consumption)
 <p align="center">
-  <img src="xhttps://raw.githubusercontent.com/mohammed-elkomy/military-pp-auto/master/gifs/2w.gif"  />
+  <img src="https://raw.githubusercontent.com/mohammed-elkomy/military-pp-auto/master/gifs/2w.gif"  />
 </p>
 3. Other commonly used tools 
 
